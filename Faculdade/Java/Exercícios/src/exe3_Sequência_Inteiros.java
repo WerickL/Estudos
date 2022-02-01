@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class exe3_Sequência_Inteiros {
+public class exe3_Sequencia_Inteiros {
 	public static void main(String[] args) {
 		Scanner ler = new Scanner (System.in);
 		int val1;
@@ -17,7 +17,7 @@ public class exe3_Sequência_Inteiros {
 			soma += c;
 		}
 		media = ((float)soma/(float)quant);
-		System.out.println("Quantidade: "+quant+" Soma: "+soma+" Média: "+ media);
+		System.out.println("Quantidade: "+quant+" Soma: "+soma+" Mï¿½dia: "+ media);
 		
 	}
 }
