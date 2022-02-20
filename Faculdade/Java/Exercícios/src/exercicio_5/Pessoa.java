@@ -1,6 +1,13 @@
 package exercicio_5;
 
 public class Pessoa {
-	private String nome;
-	private String telefone;
+	protected String nome;
+	protected String telefone;
+	
+	 public String getNome() {
+		 return this.nome;
+	 }
+	 public String getTelefone() {
+		 return this.telefone;
+	 }
 }
