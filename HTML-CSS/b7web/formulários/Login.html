@@ -8,8 +8,8 @@
 </head>
 <body>
     <h1>Usuário Cadastrado, Bem vindo</h1>
-    <h2>agora só falta informar onde você mora.</h2>
-    <form action="index.html" method="get" name="Localizacao">
+    <h2>Informe em que região você mora.</h2>
+    <form action="index.html" method="post" name="Localizacao">
         <select name="Região">
             <option value="void"></option>
             <option>Sudeste</option>
@@ -18,6 +18,9 @@
             <option>Sul</option>
             <option>Nordeste</option>
         </select>
+        <h2>Agora fale um pouco mais sobre você.</h2>
+        <textarea name="descricaousuario" id="descricao"></textarea>
+        <br>
         <input type="submit" value="Enviar">
     </form>
 </body>

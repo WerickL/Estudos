@@ -9,13 +9,48 @@
 <body>
     <h1>Tela de Login</h1>
     <form action="Login.html" method="post" name="inf-login">
-        <input type="email" value="seu email" name="email_do_usuario">
-        <input type="password" value="sua senha" name="senha_do_usuario">
-        <input type="number" value="numero de telefone" name="numero_de_telefone">
-        <input type="date" value="data de nascimento" name="Data_de_nascimento">
-        <input type="radio" name="sexo" value="masculino">
-        <input type="radio" name="sexo" value="feminino">
-        <input type="checkbox" name="termos" value="termos de compromisso">
+        <label >
+            Endereço de email: <br>
+            <input type="email"  name="email_do_usuario">
+            <br>
+        </label>
+        <label>
+            Senha: <br>
+            <input type="password" name="senha_do_usuario">
+            <br>
+        </label>
+        <label>
+            Número de telefone <br>
+            <input type="number"  name="numero_de_telefone">
+            <br>
+        </label>
+        <label>
+            Data de Nascimento <br>
+            <input type="date"  name="Data_de_nascimento">
+            <br>
+        </label>
+        <label>
+            Sexo: <br>
+            <label>
+                <input type="radio" name="sexo" value="masculino">
+                Masculino 
+            </label>
+            <label>
+                <input type="radio" name="sexo" value="feminino">
+                feminino
+            </label>
+            <br>
+        </label>
+        <label>
+            <input type="checkbox" name="termos" value="termos de compromisso">
+            Aceitar os termos de compromisso. <br>
+        </label>
+       
+       
+        
+       
+        
+       
         <input type="submit" value="Cadastrar" name="enviar_dados">
 
     </form>
