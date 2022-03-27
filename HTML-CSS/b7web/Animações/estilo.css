@@ -20,6 +20,7 @@
     left: 5%;
     animation-name: animacao1;
     animation-duration: 4s;
+    animation-delay: 1.5s;
 }
 .area{
     position: relative;
