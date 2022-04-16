@@ -1,3 +1,3 @@
 # Faculdade
 ---
-Aqui eu guardo somente os arquivos de programção e tecnologias, utilizados por mim na faculdade.
+Aqui eu guardo somente os arquivos de programação e tecnologias, utilizados por mim na faculdade.
