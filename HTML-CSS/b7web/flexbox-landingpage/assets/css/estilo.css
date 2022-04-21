@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.menu nav ul{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.menu nav ul a{
+    display: block;
+    padding: 15px;
+    margin: 1px;
+    text-transform: uppercase;
+    color: #727272;
+}
+nav ul a:hover{
+    background-color: #39aae1;
+    color: #FFFFFF;
+}
+.menu nav .active a{
+    background-color: #39aae1;
+    color: white;
+}
+#banner{
+    display: flex;
+    justify-content: center;
+    background-image: url("../imagens/img1.jpg");
+    background-position: center center;
+    background-size: cover;
+   
+    height: 100vh;
+   
+}
+.column{
+    flex-direction: column;
+}
+.banner-texto{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    max-width: 350px;
+    
+}
+.banner-texto h1{
+    text-shadow: 0px 1px 0
+    black;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+.banner-texto h2{
+    font-size: 21px;
+    text-shadow: 0px 1px 0
+    black;
+}
+.banner-options{
+    height: 210px;
+}
