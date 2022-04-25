@@ -3,6 +3,9 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    
+}
 header{
     display: flex;
     justify-content: center;
@@ -26,6 +29,7 @@ ul li{
 }
 a{
     text-decoration: none;
+    color: #000000;
 }
 .menu nav ul{
     display: flex;
@@ -113,9 +117,7 @@ nav ul a:hover{
     border: 1px solid #FFFFFF;
     padding: 5px;
     color: #FFFFFF;
-    font-weight: bold;
-   
-    
+    font-weight: bold; 
 }
 .color1 p a:hover{
     background-color: #FFFFFF;
@@ -135,4 +137,90 @@ nav ul a:hover{
     border-bottom:1px solid #ffffff33;
     padding-bottom: 10px;
     font-size: 14px;
+}
+#principal{
+    display: flex;
+    justify-content: center;
+}
+.noticias{
+    height: 300px;
+    flex: 2;
+}
+.informacoes{
+    height: 300px;
+    flex: 1;
+}
+.widget-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget-title-text{
+    color: #000000;
+    font-weight: bold;
+    font-size: 21px;
+}
+.widget-title-bar{
+    width: 50px;
+    height: 3px;
+    background-color: #36a9e1;
+    margin-top: 5px;
+}
+.widget-body{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.news-data{
+    display: flex;
+    margin-bottom: 30px;
+}
+.date-news{
+    background-color: #2b4c99;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-right: 2px;
+}
+.news-comments{
+    color: #FFFFFF;
+    background-color: #39aae1;
+    padding: 10px;
+}
+article{
+    max-width: 45%;
+    min-width: 250px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+article .news-thumb1 img{
+    width: 100%;
+    height: auto;
+}
+article .news-title{
+    margin-top: 25px;
+    color: #000000;
+    margin-bottom: 25px;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+article .news-resume{
+    font-size: 14px;
+    color: #5c5c5c;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+footer{
+    display: flex;
+}
+footer .rodape{
+    display: flex;
+    background-color: #1e1e1e;
+    justify-content: center;
+    
+}
+.footer-aside{
+    display: flex;
+    
 }
