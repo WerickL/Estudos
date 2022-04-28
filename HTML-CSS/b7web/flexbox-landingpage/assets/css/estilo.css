@@ -373,9 +373,8 @@ article .news-resume{
         height: auto;
         padding: 20px;
     }
-    .menu nav ul{
-        display: flex;
-        flex-direction: column;
+    .menu-mobile nav ul{
+        display: none;
        
     }
     .menu-mobile{
@@ -392,7 +391,9 @@ article .news-resume{
     }
     .menu-mobile:hover > nav ul {
         display: block;
-        position: relative;
+        display: flex;
+        flex-direction: column;
+        
     }
     .banner-texto h1{
         font-size: 40px;
