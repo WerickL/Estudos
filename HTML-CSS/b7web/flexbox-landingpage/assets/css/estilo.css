@@ -11,6 +11,7 @@ header{
     display: flex;
     justify-content: center;
     height: 120px;
+    padding: 0px 20px;
 }
 .top{
     width: 100%;
@@ -29,10 +30,10 @@ header{
 }
 .menu{
     display: flex;
-    align-items: center;
-    
+    justify-content: center;
+    flex-direction: column;
 }
-.menu-mobile{
+.menuMobile{
     display: none;
 }
 ul li{
@@ -41,8 +42,7 @@ ul li{
 a{
     text-decoration: none;
 }
-.menu-mobile nav ul{
-    display: block;
+ nav ul{
     display: flex;
 }
  nav ul a{
@@ -356,6 +356,13 @@ article .news-resume{
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 20px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 0px 20px;
     }
 
 }
@@ -367,21 +374,31 @@ article .news-resume{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-       
+        margin: 0;
     }
     header{
+        display: flex;
+        flex-direction: column;
         height: auto;
-        padding: 20px;
+        padding: 10px 20px;
     }
-    .menu-mobile nav ul{
+     nav ul{
         display: none;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFFFFF;
+        text-align: center;
        
     }
-    .menu-mobile{
+    .menuMobile{
         display:flex;
         flex-direction: column;
-        justify-content: space-around;
-        height: 40px;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        
     }
     .mm-line{
         background-color:#39aae1;
@@ -389,12 +406,7 @@ article .news-resume{
         height: 3px;
         margin-bottom: 5px;
     }
-    .menu-mobile:hover > nav ul {
-        display: block;
-        display: flex;
-        flex-direction: column;
-        
-    }
+     
     .banner-texto h1{
         font-size: 40px;
     }
@@ -408,7 +420,6 @@ article .news-resume{
     }
     #baner{
         height: auto;
-
     }
     
     article{
