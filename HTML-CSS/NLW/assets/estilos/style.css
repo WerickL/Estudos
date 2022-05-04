@@ -85,7 +85,7 @@ header p{
   margin-top: 2.4rem;
   
 }
-button{
+header button{
   display: block;
   background-color: var(--cor-primaria);
   margin-top: 3.2rem;
