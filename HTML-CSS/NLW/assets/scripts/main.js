@@ -7,8 +7,9 @@ function onScroll(){
   }
 }
 function openMenu(){
-  body.classList.add('menu-expanded')
+  document.body.classList.add('menu-expanded')
 }
 function closeMenu(){
-  body.classList.remove('menu-expanded')
+  document.body.classList.remove('menu-expanded')
+   
 }

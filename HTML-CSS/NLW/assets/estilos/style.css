@@ -16,6 +16,7 @@ body{
   font-family: 'DM Sans', sans-serif;
   font-size: 1.6rem;
   text-align: center;
+  overflow: overlay;
  
 }
 ul{
@@ -51,6 +52,9 @@ nav .container{
   align-items: center;
 }
 .menu, .close-menu, body.menu-expanded .open-menu{
+  display: none;
+}
+body.menu-expanded > :not(nav){
   display: none;
 }
 body.menu-expanded .menu{
