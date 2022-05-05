@@ -17,7 +17,17 @@ body{
   font-size: 1.6rem;
   text-align: center;
   overflow: overlay;
- 
+  background-color: #F7F9F9;
+}
+html{
+  scroll-behavior: smooth;
+}
+button{
+  background: none;
+  border: none;
+}
+a{
+  text-decoration: none;
 }
 ul{
   list-style: none;
@@ -121,14 +131,15 @@ ul.social-links{
   margin-top: 8rem;
 
 }
-header img{
+header.main img{
   margin-top: 6rem;
   display: block;
   margin-inline: auto;
   object-position: 0 2rem;
   width: 26.3rem;
 }
-header::before{
+
+header.main::before{
   content: "";
   height:calc(108rem + var(--height-nav));
   width: 100%;
@@ -140,27 +151,26 @@ header::before{
   z-index: -1;
 
 }
-header h4{
+header.main h4{
   font-size: 1.4rem;
   color: var(--cor-primaria);
   padding-top: calc(4rem + var(--height-nav));
 
 }
-header h1{
+header.main h1{
   font-size: 3.4rem;
   color: var(--cor-secundaria-gray-headline);
   line-height: 130%;
   margin-top: 1.6rem;
 }
-header p{
+header.main p{
   font-size: 1.8rem;
   color: var(--cor-secundaria-gray-paragraph);
   line-height: 150%;
   margin-top: 2.4rem;
   
 }
-header button{
-  display: block;
+header.main button a {
   background-color: var(--cor-primaria);
   margin-top: 3.2rem;
   border: none;
@@ -176,6 +186,7 @@ header button{
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
 }
 
 .cont-statistics{
@@ -200,3 +211,52 @@ header button{
   margin-top: 0.4rem;
   line-height: 150%;
 }
+#services {
+  padding-block: 10rem;
+}
+ #services header h4{
+   color: var(--cor-primaria);
+   font-weight: bold;
+   font-size: 1.4rem;
+   line-height: 150%;
+   letter-spacing: 0.08rem;
+   text-transform: uppercase;
+ }
+ #services header h2{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.9rem;
+  text-align: center;
+  color: var(--cor-secundaria-gray-headline);
+  margin-top: 1.6rem;
+  margin-inline: 1rem;
+ }
+ #services .cards{
+   display: flex;
+   flex-direction: column;
+   gap: 3.2rem;
+   margin-top: 6rem;
+ }
+ #services .card{
+  width: 100%;
+  background-color: #FFFFFF;
+  border: 0.1rem solid #DCE9E2;
+  border-radius: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2.4rem;
+  
+  text-align: left;
+ }
+ .card h3{
+   font-size: 2.4rem;
+   color: #212529;
+   display: flex;
+   flex-wrap: nowrap;
+   margin-block: 1.6rem;
+ }
+ .card p{
+   font-size: 1.6rem;
+   color: #495057;
+ }
