@@ -39,7 +39,9 @@ nav{
   background-color: var(--cor-primaria);
   width: 100vw;
 }
-
+.scroll .logo svg:nth-child(1) path {
+  fill: white;
+}
 .scroll button svg:nth-child(1) path{
   stroke: white;
 }
