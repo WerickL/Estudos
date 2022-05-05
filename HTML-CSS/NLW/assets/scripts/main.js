@@ -6,3 +6,9 @@ function onScroll(){
     navi.classList.remove('scroll')
   }
 }
+function openMenu(){
+  body.classList.add('menu-expanded')
+}
+function closeMenu(){
+  body.classList.remove('menu-expanded')
+}
