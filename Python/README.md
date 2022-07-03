@@ -1,1 +1,0 @@
-Arquivos utilizados no aprendizado da linguagem python.
